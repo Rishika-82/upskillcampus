@@ -31,7 +31,7 @@ def _category_for_extension(extension: str) -> str:
         if extension in extensions:
             return category
     return OTHER_CATEGORY
-
+"""comment for test in git"""
 
 def organize_folder(folder: str) -> Tuple[List[str], Dict[str, int], int]:
     """
